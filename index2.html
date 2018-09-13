@@ -104,7 +104,7 @@
             <h2> Case Studies </h2>
           </div>
         </div>
-        <p class="pb_font-20 mb-5"> Some text here </p>
+        <p class="pb_font-20 mb-5"> Why using cloud for life sciences research?  </p>
 
         <div class="row mb-5">
           <div class="col-lg-4 col-md- col-sm-6">
@@ -138,53 +138,135 @@
 
         
         </div>
+
         <div class="row justify-content-center mb-3 text-center">
             <h5 class="text-uppercase pb_font-15 mb-2 pb_letter-spacing-2"><strong> Examples </strong></h5>
         </div>
 
         <div class="row">
           <div class="col-md">
-            <div class="pb_pricing_v1 p-5 border text-center bg-white">
-              <h3>Zika Analysis</h3>
-              <p class="text-sans-serif heading" style="color: #1d82ff; font-size: 20px;"> Researchers at Northeastern University ran 10+ milllion simulations to model the Zika virus and drastically reduced the time for analysis by using a cloud platform. </p>
-              <p class="pb_font-15"> "We have the flexibility to scale up to several thousand independent virtual instances in parallel, so we can generate a full analysis for a single epidemic scenario—which may consist of up to 250,000 independent simulations—in less than a day," says Matteo Chinazzi, Associate Research Scientist at Northeastern University. “Google Compute Engine and Preemptible Virtual Machines run the simulations of the disease’s spread. Google BigQuery examines the simulated scenarios [...] So far, we’ve churned through a tremendous amount of data—hundreds of terabytes in all. Google Cloud Storage stores all of it.”</p>
-              <p class="mb-0"><a href="https://edu.google.com/intl/en_us/latest-news/stories/neu-gcp/?modal_active=none" role="button" class="btn btn-primary btn-shadow-blue" target="_blank">Read More</a></p>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="pb_pricing_v1 p-5 border text-center bg-white">
-              <h3>Understanding Autism</h3>
-              <p class="text-sans-serif heading" style="color: #1d82ff; font-size: 20px;"> MSSNG, a collaboration between Google and Autism Speaks, applies the power of cloud computing to sequence the DNA of 10,000 families affected by autism.</p>
-              <p class="pb_font-15"> <span class="text-sans-serif heading" style="color: #1d82ff;"> Big data storage: </span> the project's plan to upload the whole genome of 10,000 individuals makes it the largest single repository of autism-related DNA sequencing data <br>
-              <span class="text-sans-serif heading" style="color: #1d82ff;"> Seamless collaboration: </span>
-              </p>
-              <p class="mb-0"><a href="https://cloud.google.com/customers/autism-speaks/" role="button" class="btn btn-primary btn-shadow-blue" target="_blank">Read More</a></p>
-            </div>
-          </div>
-        </div>
+            <div id="pb_faq" class="pb_accordion" data-children=".item">
+              
+              <!-- ZIKA ANALYSIS -->
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq1" aria-expanded="false" aria-controls="pb_faq1" class="pb_font-22 py-4">Zika Analysis</a>
+                <div id="pb_faq1" class="collapse" role="tabpanel">
+                  <p class="text-sans-serif heading" style="font-size: 20px;"> Researchers at Northeastern University ran 10+ milllion simulations to model the Zika virus and drastically reduced the time for analysis by using a cloud platform. </p>
 
-        <div class="row">
-          <div class="col-md">
-            <div class="pb_pricing_v1 p-5 border text-center bg-white">
-              <h3>Basic</h3>
-              <span class="price"><sup>$</sup>19<span>month</span></span>
-              <p class="pb_font-15">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
-              <p class="mb-0"><a href="#" role="button" class="btn btn-secondary">Get started</a></p>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="pb_pricing_v1 p-5 border text-center bg-white">
-              <h3>Basic</h3>
-              <span class="price"><sup>$</sup>19<span>month</span></span>
-              <p class="pb_font-15">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
-              <p class="mb-0"><a href="#" role="button" class="btn btn-secondary">Get started</a></p>
-            </div>
-          </div>
-        </div>
+                  <div class="row">
+                    <div class="col-lg">
+                      <div class="media pb_feature-v2 text-left mb-1 mt-5">
+                        <img src = "assets/images/gcp.png" alt="Image placeholder" class="img-fluid" width="50">
+                        <div class="media-body ml-3">
+                          <h3 class="mt-2 mb-2 heading"> Google Compute Engine </h3>
+                          <p class="text-sans-serif pb_font-16">Google Compute Engine was utilized to run and manage 250,000 independent simulations, cutting the costs by 80% with preemptible instances.</p>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-lg">
+                      <div class="media pb_feature-v2 text-left mb-1 mt-5">
+                        <img src = "assets/images/bigquery.jpeg" alt="Image placeholder" class="img-fluid" width="50">
+                        
+                        <div class="media-body ml-3">
+                          <h3 class="mt-2 mb-2 heading">Google BigQuery</h3>
+                          <p class="text-sans-serif pb_font-16">Google BigQuery was utilized to analyze terabytes of the simulation results in seconds.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+              <!-- AUTISM -->
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq2" aria-expanded="false" aria-controls="pb_faq2" class="pb_font-22 py-4">Big genomic data for understanding autism</a>
+                <div id="pb_faq2" class="collapse" role="tabpanel">
+                  <p class="text-sans-serif heading" style="font-size: 20px;"> MSSNG, a collaboration between Google and Autism Speaks, applies the power of cloud computing to sequence the DNA of 10,000 families affected by autism. </p>
 
-        </div>
-        
+                  <div class="row">
+                    <div class="col-lg">
+                      <div class="media pb_feature-v2 text-left mb-1 mt-5">
+                        <img src = "assets/images/storage.png" alt="Image placeholder" class="img-fluid" width="50">
+                        <div class="media-body ml-3">
+                          <h3 class="mt-2 mb-2 heading"> Google Cloud Storage </h3>
+                          <p class="text-sans-serif pb_font-16">Google Cloud Storage was utilized to securely store and share the petabytes of genomic data with the autism research community. The project's plan to upload the whole genome of 10,000 individuals makes it the largest single repository of autism-related DNA sequencing data. </p>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-lg">
+                      <div class="media pb_feature-v2 text-left mb-1 mt-5">
+                        <img src = "assets/images/engine.png" alt="Image placeholder" class="img-fluid" width="50">
+                        
+                        <div class="media-body ml-3">
+                          <h3 class="mt-2 mb-2 heading">Google App Engine</h3>
+                          <p class="text-sans-serif pb_font-16">Google App Engine was used to provide a secure and standardized access to research data via the GA4GH Application Programming Interface (API), enabling seamless collaboration in the autism research community. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CANCER -->
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq3" aria-expanded="false" aria-controls="pb_faq3" class="pb_font-22 py-4"> Software for germline and cancer genome analysis</a>
+                <div id="pb_faq3" class="collapse" role="tabpanel">
+                  <p class="text-sans-serif heading" style="font-size: 20px;"> The Broad Institute published GATK, the only open-sourced software for all major variant classes for germline and cancer genome analysis, using cloud technology. </p>
+
+                  <div class="row">
+                    <div class="col-lg">
+                      <div class="media pb_feature-v2 text-left mb-1 mt-5">
+                        <img src = "assets/images/storage.png" alt="Image placeholder" class="img-fluid" width="50">
+                        <div class="media-body ml-3">
+                          <h3 class="mt-2 mb-2 heading"> Placeholder </h3>
+                          <p class="text-sans-serif pb_font-16"> Placeholder </p>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-lg">
+                      <div class="media pb_feature-v2 text-left mb-1 mt-5">
+                        <img src = "assets/images/engine.png" alt="Image placeholder" class="img-fluid" width="50">
+                        
+                        <div class="media-body ml-3">
+                          <h3 class="mt-2 mb-2 heading">Placeholder</h3>
+                          <p class="text-sans-serif pb_font-16"> Placeholder </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- NIH STRIDES -->
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq4" aria-expanded="false" aria-controls="pb_faq4" class="pb_font-22 py-4">NIH STRIDES</a>
+                <div id="pb_faq4" class="collapse" role="tabpanel">
+                  <p class="text-sans-serif heading" style="font-size: 20px;"> Placeholder </p>
+
+                  <div class="row">
+                    <div class="col-lg">
+                      <div class="media pb_feature-v2 text-left mb-1 mt-5">
+                        <img src = "assets/images/storage.png" alt="Image placeholder" class="img-fluid" width="50">
+                        <div class="media-body ml-3">
+                          <h3 class="mt-2 mb-2 heading"> Placeholder </h3>
+                          <p class="text-sans-serif pb_font-16"> Placeholder </p>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-lg">
+                      <div class="media pb_feature-v2 text-left mb-1 mt-5">
+                        <img src = "assets/images/engine.png" alt="Image placeholder" class="img-fluid" width="50">
+                        
+                        <div class="media-body ml-3">
+                          <h3 class="mt-2 mb-2 heading">Placeholder</h3>
+                          <p class="text-sans-serif pb_font-16"> Placeholder </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>  
       </div>
     </section>
     <!-- END section -->
